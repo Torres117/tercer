@@ -1,0 +1,8 @@
+.render{
+    width: 600px;
+    height: 600px;
+}
+.render canvas{
+    max-width: 100%;
+    max-height: 100%;
+}

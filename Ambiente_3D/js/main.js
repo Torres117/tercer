@@ -5,7 +5,7 @@
       
       //creating scene
       var scene = new THREE.Scene();
-      scene.background = new THREE.Color(0xb5ceff);
+      scene.background = new THREE.Color(0x140f07);
 
       //add camera
       var camera = new THREE.PerspectiveCamera(
@@ -23,7 +23,7 @@
       //add geometry
       var geometry = new THREE.BoxGeometry();
       var material = new THREE.MeshBasicMaterial({
-        color: 0xff6908,
+        color: 0xefe640,
         wireframe: true,
       });
       var cube = new THREE.Mesh(geometry, material);
